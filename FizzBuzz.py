@@ -8,7 +8,7 @@ num_count = 0
 # Create a variable to keep count of loops happening.
 for i in range(0, 100):
     num_count += 1
-# Set a range for the program to loop through. In the looper a counter will track the
+# Set a range for the program to loop through. In the loop a counter will track the
 # loops completed in the variable count.
     if num_count % 3 == 0 and num_count % 5 == 0:
         print("FizzBuzz")
